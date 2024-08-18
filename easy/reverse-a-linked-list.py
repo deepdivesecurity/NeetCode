@@ -11,7 +11,7 @@ class Solution:
         next = None
 
         # Loop through the linked list until reaching the end
-        while current != None: 
+        while current: 
             # Save the next node to be set at the end
             next = current.next
             # Set the current node's link to the previous node
